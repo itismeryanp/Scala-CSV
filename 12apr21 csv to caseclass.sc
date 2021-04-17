@@ -32,3 +32,4 @@ for (line <- Source.fromFile(fileName).getLines.drop(1)) {//gets lines except 1s
   val caseClassForm = DataPoint(listForm(0).toInt,listForm(1),listForm(2),listForm(3),listForm(4).toDouble,listForm(5).toDouble,listForm(6),listForm(7).toInt,listForm(8).toInt,listForm(9).toInt)
   //line above makes new instances of datapoint.type
   println(caseClassForm) //prints new instances of data point type
+}
